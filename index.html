@@ -10,10 +10,13 @@
         <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
         <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
 
-        <link rel="stylesheet" href="css/index.min.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/index2.css" />
         <link rel="stylesheet" href="css/enikkom.css" />
     </head>
     <body>
+
+        <!-- menu bar -->
         <header class="header primary-bg" data-page="home">
             <div class="header_navbar">
                 <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
@@ -63,371 +66,265 @@
                 </div>
             </div>
         </header>
+
+
         <!--  HOMEPAGE CONTENT START  -->
         <main>
-            <section class="hero primary-bg">
-                <picture>
-                    <source data-srcset="img/background.webp" srcset="img/background.webp" type="image/webp" data-role="deco" />
-                    <img class="plan lazy" data-src="img/background.webp" src="background.webp" alt="media" data-role="deco" />
-                </picture>
-                <div class="container hero_container d-md-flex flex-wrap justify-content-between">
-                    <picture>
-                        <source
-                            data-srcset="img/hero_building.webp"
-                            srcset="img/hero_building.webp"
-                            type="image/webp"
-                            data-role="deco"
-                        />
-                        <img
-                            class="hero_building lazy"
-                            data-src="img/hero_building.webp"
-                            src="img/hero_building.webp"
-                            alt="media"
-                            data-role="deco"
-                        />
-                    </picture>
-                    <div class="hero_header section_header col-md-7 col-xl-auto">
-                        <span class="subtitle subtitle--extended"> Professional. Innovative. Reliable. </span>
-                        <h1 class="title">Exceptional Service Exceeding Expectations</h1>
-                        <p class="text">
-                            Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions
-                            for our communities
-                        </p>
-                      
+              <!--  slide show -->
+              <section class="hero primary-bg">
+                <span class="hero_overlay"></span>
+                <div class="container container--slider d-flex flex-wrap justify-content-center">
+                    <div class="wrapper col-lg-11">
+                        <ul class="hero_slider d-flex">
+                            <li class="hero_slider-slide hero_slider-slide--01" data-bg="img/4.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Trenchless</h2>
+                                    <h2 class="title">Crossings</h2>
+                                    
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--02" data-bg="img/5.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Engineering </h2>
+                                    <h2 class="title">and Maintenance</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--03" data-bg="img/8.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Project </h2>
+                                    <h2 class="title"> Management / Consultancy</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--04" data-bg="img/9.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">	Civil </h2>
+                                    <h2 class="title">	Construction</h2>
+                                    <br>
+                                    <a class="btn" href="services">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--05" data-bg="img/10.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Dredging</h2>
+                                    <h2 class="title"> and Piling</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--01" data-bg="img/11.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Production</h2>
+                                    <h2 class="title">Operations</h2>
+                                    <br>
+                                    
+                                    <a class="btn" href="services">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--02" data-bg="img/12.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Logistics </h2>
+                                    <h2 class="title"> Support</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+
+                        </ul>
                     </div>
-                    <div class="hero_info d-flex flex-column col-md-5 col-xl-auto align-items-md-end">
-                       
-                        <div class="hero_info-card" data-wow-delay="100" data-wow-duration="600">
-                            <span class="hero_info-card_underlay"></span>
-                            <div class="wrapper">
-                                <h3 class="title">Delivery Great services since</h3>
-                                <span class="square highlight d-flex align-items-center">1995</span>
-                                
-                                
-                            </div>
-                            <picture>
-                                <source
-                                    data-srcset="img/hero_building.webp"
-                                    srcset="img/hero_building.webp"
-                                    type="image/webp"
-                                    data-role="deco"
-                                />
-                                <img
-                                    class="hero_building--mini lazy"
-                                    data-src="img/hero_building.webp"
-                                    src="img/hero_building.webp"
-                                    alt="media"
-                                    data-role="deco"
-                                />
-                            </picture>
-                        </div>
+                    <div
+                        class="hero_slider-nav hero_slider-nav--alt col-lg-1 d-flex align-items-center justify-content-center flex-lg-column align-items-md-end"
+                    >
+                        <button class="hero_slider-nav_dot tns-nav-active"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        
                     </div>
                 </div>
-            </section>
-            <section class="services section">
-                <div class="container">
-                    <div class="services_header section_header">
-                        <span class="subtitle"> What we do </span>
-                        <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                            Multi-Disciplined Engineering <span class="highlight">Solutions</span>
-                        </h2>
-                    </div>
-                    <ul class="services_list row g-0">
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="1">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">01</span>
-                                <h4 class="title">Process Engineering</h4>
-                                <p class="description">
-                                    Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                <div class="container-fluid container--thumbs">
+                    <ul class="hero_thumbs">
+                        <li class="hero_thumbs-thumb is-current" data-bg="img/4.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Trenchless
+                                    Crossings</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="2">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">02</span>
-                                <h4 class="title">Construction Management</h4>
-                                <p class="description">
-                                    Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                        <li class="hero_thumbs-thumb" data-bg="img/5.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Engineering
+                                    and Maintenance</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="3">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">03</span>
-                                <h4 class="title">Civil Engineering</h4>
-                                <p class="description">
-                                    Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                        <li class="hero_thumbs-thumb" data-bg="img/8.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Project
+                                    Management / Consultancy</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="4">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">04</span>
-                                <h4 class="title">Electrical Engineering</h4>
-                                <p class="description">
-                                    Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Nam aliquam sem et tortor
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                        <li class="hero_thumbs-thumb" data-bg="img/9.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Civil
+                                    Construction</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="5">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">05</span>
-                                <h4 class="title">Chemistry and Metallurgy</h4>
-                                <p class="description">
-                                    Mollis nunc sed id semper. Sodales ut etiam sit amet nisl purus. Sed odio morbi quis commodo odio
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                        <li class="hero_thumbs-thumb" data-bg="img/10.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Dredging
+                                    and Piling</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="6">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">06</span>
-                                <h4 class="title">Specialty Services</h4>
-                                <p class="description">
-                                    Tellus elementum sagittis vitae et. Amet justo donec enim diam vulputate ut consequat id porta nibh
-                                    venenatis
-                                </p>
-                                <a class="link link-arrow" href="single-service.html">
-                                    Details
-                                    <i class="icon-arrow_right"></i>
-                                </a>
+                        <li class="hero_thumbs-thumb" data-bg="img/11.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Production
+                                    Operations</h4>
                             </div>
                         </li>
+                        <li class="hero_thumbs-thumb" data-bg="img/12.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Logistics
+                                    Support</h4>
+                            </div>
+                        </li>
+                        
+                        
                     </ul>
                 </div>
             </section>
-            <section class="projects primary-bg section">
-                <div class="container">
-                    <div class="projects_header section_header">
-                        <span class="subtitle">What we do</span>
-                        <h2 class="title" data-aos="fade-right" data-aos-duration="500">Our <span class="highlight">Projects</span></h2>
-                    </div>
-                    <ul class="projects_list row g-0">
-                        <li class="projects_list-item col-12 col-md-6" data-order="1">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper" data-aos="fade-right">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Jazzy Elite Construction Shopping Center"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h3 class="projects_list-item_title" data-aos="fade-up">Jazzy Elite Construction Shopping Center</h3>
-                                    <div class="projects_list-item_info d-flex flex-wrap align-items-center justify-content-between">
-                                        <span class="separator" data-aos="slide-right"></span>
-                                        <span class="location d-flex align-items-center" data-aos="fade-up">
-                                            <i class="icon-location icon"></i>
-                                            100 Sunrise Ct Hamel, Minnesota(MN)
-                                        </span>
-                                        <a class="link link-arrow link-arrow--alt" href="#" data-aos="fade-left">
-                                            Details
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="projects_list-item col-12 col-md-6" data-order="2">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper" data-aos="fade-right">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h3 class="projects_list-item_title" data-aos="fade-up">Fresh Concept Construction Renovation</h3>
-                                    <div class="projects_list-item_info d-flex flex-wrap align-items-center justify-content-between">
-                                        <span class="separator" data-aos="slide-right"></span>
-                                        <span class="location d-flex align-items-center" data-aos="fade-up">
-                                            <i class="icon-location icon"></i>
-                                            Rocky Highway Port Juana
-                                        </span>
-                                        <a class="link link-arrow link-arrow--alt" href="#" data-aos="fade-left">
-                                            Details
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="projects_list-item col-12 col-md-6" data-order="3">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper" data-aos="fade-right">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Installation a  Supply System"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h3 class="projects_list-item_title" data-aos="fade-up">Installation a Supply System</h3>
-                                    <div class="projects_list-item_info d-flex flex-wrap align-items-center justify-content-between">
-                                        <span class="separator" data-aos="slide-right"></span>
-                                        <span class="location d-flex align-items-center" data-aos="fade-up">
-                                            <i class="icon-location icon"></i>
-                                            Wuckert Junctions Hermannberg
-                                        </span>
-                                        <a class="link link-arrow link-arrow--alt" href="#" data-aos="fade-left">
-                                            Details
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="projects_list-item col-12 col-md-6" data-order="4">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper" data-aos="fade-right">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="projects_list-item_img lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Reconstruction of Old Factory Building"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper">
-                                    <h3 class="projects_list-item_title" data-aos="fade-up">Reconstruction of Old Factory Building</h3>
-                                    <div class="projects_list-item_info d-flex flex-wrap align-items-center justify-content-between">
-                                        <span class="separator" data-aos="slide-right"></span>
-                                        <span class="location d-flex align-items-center" data-aos="fade-up">
-                                            <i class="icon-location icon"></i>
-                                            Stoltenberg Underpass Blockbury
-                                        </span>
-                                        <a class="link link-arrow link-arrow--alt" href="#" data-aos="fade-left">
-                                            Details
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="spots section">
-                <div class="container d-flex flex-wrap flex-lg-nowrap">
-                    <div class="wrapper">
-                        <div class="spots_header section_header">
-                            <span class="subtitle">Where we work</span>
-                            <h2 class="title">
-                                <span class="highlight">Our Project </span>
-                                in the World
-                            </h2>
-                        </div>
-                        <div class="spots_map">
-                            <picture>
-                                <source
-                                    data-srcset="img/placeholder.jpg"
-                                    srcset="img/placeholder.jpg"
-                                    type="image/webp"
-                                    data-role="deco"
-                                />
-                                <img
-                                    class="spots_map-map lazy"
-                                    data-src="img/placeholder.jpg"
-                                    src="img/placeholder.jpg"
-                                    alt="map"
-                                    data-role="deco"
-                                />
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="spots_info col-lg-6 col-xl-auto">
-                        <p class="spots_info-text">
-                            Molestie nunc non blandit massa. Lacus sed viverra tellus in hac habitasse platea. Velit egestas dui id ornare
-                            arcu. Sapien pellentesque habitant morbi tristique senectus et netus. Ut consequat semper viverra nam libero.
-                            Convallis aenean et tortor at
+
+
+              <!--  SERVICES CONTENT START  -->
+           
+
+            
+
+              <!--  who we are  START  -->
+              <section class="about secondarywork-bg section">
+                <div class="container d-flex flex-wrap justify-content-between align-items-end">
+                    <div class="about_header section_header col-lg-5">
+                        <span class="subtitle" data-aos="fade-down">Who we are</span>
+                        <h2 class="title" data-aos="fade-right">Enikkom Group is a wholly indigenous company that was incorporated in 1995. </h2>
+                        <p class="text" data-aos="fade-in" data-aos-duration="700">
+                            Enikkom is a leader in Engineering, Procurement, Fabrication, Construction, Installation with end-to-end Project Management capability and supporting 
+                            services for offshore, onshore / swamp flowlines, pipelines and end facilities. 
                         </p>
-                        <div class="wrapper d-flex flex-column align-items-start justify-content-center justify-content-sm-start">
-                            <div class="spots_info-number">
-                                <h2 class="countNum number" data-suffix="+" data-value="200">0</h2>
+                        <ul class="about_header-list">
+                            <li class="about_header-list_item d-flex align-items-center" data-aos="fade-up">
+                                <svg class="icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip01)">
+                                        <path
+                                            d="M36.4062 6.5625L21.4062 0.3125C20.9375 0.15625 20.4688 0.078125 20 0.078125C19.4531 0.078125 18.9844 0.15625 18.5156 0.3125L3.51562 6.5625C2.10938 7.1875 1.25 8.51562 1.25 10C1.25 25.5469 10.1562 36.25 18.5156 39.7656C19.4531 40.1562 20.4688 40.1562 21.4062 39.7656C28.125 36.9531 38.75 27.3438 38.75 10C38.75 8.51562 37.8125 7.1875 36.4062 6.5625ZM20.4688 37.4219C20.1562 37.5781 19.7656 37.5781 19.4531 37.4219C11.875 34.375 3.75 23.75 3.75 10C3.75 9.53125 3.98438 9.0625 4.45312 8.90625L19.4531 2.65625C19.7656 2.5 20.1562 2.5 20.4688 2.65625L35.4688 8.90625C35.9375 9.0625 36.25 9.53125 36.1719 10C36.25 23.75 28.125 34.375 20.4688 37.4219ZM31.0938 12.0312C30.7031 11.7188 30.1562 11.7188 29.7656 12.0312L17.0312 24.6875L11.6406 19.2969C11.25 18.9062 10.625 18.9062 10.3125 19.2969L9.60938 19.9219C9.21875 20.3125 9.21875 20.8594 9.60938 21.25L16.3281 28.0469C16.7188 28.3594 17.2656 28.3594 17.6562 28.0469L31.7188 14.0625C32.1094 13.6719 32.1094 13.125 31.7188 12.7344L31.0938 12.0312Z"
+                                            fill="#0DA574"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip01">
+                                            <rect width="40" height="40" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <span class="label"> Successfully Completed Projects </span>
+                            </li>
+                            <li class="about_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
+                                <svg class="icon" width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip02)">
+                                        <path
+                                            d="M39.4688 28.8281L29.8594 19.2188L33.7656 15.3125L39.0781 10C40.5625 8.51562 40.5625 6.17188 39.0781 4.6875L35.5625 1.17188C34.8594 0.390625 33.9219 0 32.9062 0C31.9688 0 31.0312 0.390625 30.25 1.17188L24.9375 6.48438L21.0312 10.3906L11.4219 0.78125C10.9531 0.3125 10.3281 0 9.70312 0C9.07812 0 8.45312 0.3125 7.98438 0.78125L0.953125 7.73438C-0.0625 8.75 -0.0625 10.3125 0.953125 11.25L10.5625 20.8594L1.73438 29.6875L0.25 38.125C0.015625 39.2969 1.10938 40.2344 2.125 40L10.5625 38.5156L19.3906 29.6875L29 39.2969C29.3906 39.7656 30.0156 40 30.7188 40C31.3438 40 31.9688 39.7656 32.4375 39.2969L39.4688 32.2656C40.4844 31.3281 40.4844 29.7656 39.4688 28.8281ZM32.0469 2.89062C32.3594 2.57812 33.4531 2.57812 33.8438 2.89062L37.3594 6.40625C37.8281 6.95312 37.8281 7.73438 37.3594 8.20312L33.7656 11.7969L28.4531 6.48438L32.0469 2.89062ZM2.67188 9.53125L9.70312 2.57812L14.0781 6.875L11.0312 10C10.7969 10.2344 10.7969 10.625 11.0312 10.8594L11.8906 11.7188C12.125 11.9531 12.5156 11.9531 12.75 11.7188L15.875 8.67188L19.3125 12.1094L12.2812 19.1406L2.67188 9.53125ZM9.3125 36.25L2.90625 37.3438L4 30.9375L26.6562 8.28125L31.9688 13.5938L9.3125 36.25ZM30.7188 37.5781L21.1094 27.9688L28.1406 20.9375L31.5781 24.375L28.5312 27.5C28.2969 27.7344 28.2969 28.125 28.5312 28.3594L29.3906 29.2188C29.625 29.4531 30.0156 29.4531 30.25 29.2188L33.375 26.1719L37.75 30.5469L30.7188 37.5781Z"
+                                            fill="#0DA574"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip02">
+                                            <rect width="40" height="40" fill="white" transform="translate(0.25)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <span class="label"> Simplicity In Design With Practically In Mind </span>
+                            </li>
+                            <li class="about_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
+                                <svg class="icon" width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip04)">
+                                        <path
+                                            d="M37.75 27.5V25C37.75 17.1094 32.4375 10.4688 25.25 8.35938V7.5C25.25 6.17188 24.0781 5 22.75 5H17.75C16.3438 5 15.25 6.17188 15.25 7.5V8.35938C7.98438 10.4688 2.75 17.1094 2.75 25V27.5C1.34375 27.5 0.25 28.6719 0.25 30V32.5C0.25 33.9062 1.34375 35 2.75 35H37.75C39.0781 35 40.25 33.9062 40.25 32.5V30C40.25 28.6719 39.0781 27.5 37.75 27.5ZM5.25 25C5.25 18.9062 9 13.6719 14.3125 11.4062L16.3438 19.5312C16.4219 19.8438 16.6562 20 17.0469 20C17.3594 20 17.6719 19.6875 17.75 19.2969V7.5H22.75V19.2969C22.75 19.6875 23.0625 20 23.375 20C23.7656 20 24 19.8438 24.0781 19.5312L26.1094 11.4062C31.4219 13.6719 35.25 18.9062 35.25 25V27.5H5.25V25ZM37.75 32.5H2.75V30H37.75V32.5Z"
+                                            fill="#0DA574"
+                                        />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip04">
+                                            <rect width="40" height="40" fill="white" transform="translate(0.25)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <span class="label"> High Level of Construction Control Approval </span>
+                            </li>
+                        </ul>
+                        <span class="wrapper d-block" data-aos="fade-right" data-aos-delay="50">
+                            <a class="btn" href="about-us.html">Learn more about us</a>
+                        </span>
+                    </div>
+                    <div class="about_numbers col-12 col-lg-6">
+                        <div class="about_numbers-group d-flex flex-wrap align-items-center justify-content-start">
+                            <div class="about_numbers-group_group">
+                                <h2 class="countNum number" data-value="100" data-suffix="+">0</h2>
                                 <span class="label"> Active Projects in Civil Engineering </span>
                             </div>
-                            <div class="spots_info-number">
-                                <h2 class="countNum number" data-suffix="%" data-value="99">0</h2>
+                            <div class="about_numbers-group_group">
+                                <h2 class="countNum number" data-value="99" data-suffix="%">0</h2>
                                 <span class="label"> Building Control Approval Rate </span>
                             </div>
                         </div>
-                        <a class="spots_info-btn btn" href="about.html">About company</a>
+                        <div class="about_numbers-img" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
+                            <picture>
+                                <source srcset="img/13.jpg" type="image/13" />
+                                <img
+                                    class="about_numbers-img_img lazy"
+                                    data-src="img/13.jpg"
+                                    src="img/13.jpg"
+                                    alt="media"
+                                />
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </section>
+
+                <!-- why choose us-->
+
             <section class="features primary-bg section-nopb">
                 <div class="container p-md-0">
                     <div class="row g-0">
                         <div class="features_header section_header col-12 col-md-12 col-lg-6 col-xl-4">
                             <span class="subtitle">Why Choose Us</span>
                             <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                                <span class="highlight">Designing </span>
-                                Future with Excellence
+                                <span class="highlight">The biggest </span>
+                               trenchless construction company in Africa
                             </h2>
-                            <ul class="features_header-list">
-                                <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up">
-                                    <i class="icon-check icon"></i>
-                                    Building the future with ideas
-                                </li>
-                                <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
-                                    <i class="icon-check icon"></i>
-                                    Designing future with excellence
-                                </li>
-                                <li class="features_header-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
-                                    <i class="icon-check icon"></i>
-                                    Discovering possibility in concrete
-                                </li>
-                            </ul>
+                           
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-order="1">
                             <div class="wrapper d-flex flex-column align-items-start justify-content-between">
@@ -447,10 +344,8 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Develop Unique Projects</h3>
-                                <p class="features_card-description">
-                                    Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin
-                                </p>
+                                <h3 class="features_card-title">Enikkom has track record of excellence in HDD, being the number one indigenous HDD company in Africa</h3>
+                                
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="50" data-order="2">
@@ -477,10 +372,8 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Value Convenience and Functionality</h3>
-                                <p class="features_card-description">
-                                    Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies
-                                </p>
+                                <h3 class="features_card-title">Enikkom holds the record for the longest single crossing completed in west Africa, at 3.3KM.</h3>
+                                
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100" data-order="3">
@@ -560,9 +453,7 @@
                                 </svg>
 
                                 <h3 class="features_card-title">Experience Allows Us to Implement New Ideas</h3>
-                                <p class="features_card-description">
-                                    Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Enim diam vulputate ut pharetra
-                                </p>
+                               
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="150" data-order="4">
@@ -619,10 +510,8 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Offer Innovative Technologies</h3>
-                                <p class="features_card-description">
-                                    Consectetur adipiscing elit pellentesque habitant. Arcu felis bibendum ut tristique
-                                </p>
+                                <h3 class="features_card-title">	Equipped with fully functioning modern Equipments </h3>
+                                
                             </div>
                         </div>
                         <div class="features_card col-12 col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="200" data-order="5">
@@ -661,72 +550,51 @@
                                     />
                                 </svg>
 
-                                <h3 class="features_card-title">We Focus on Long-term Relationships</h3>
-                                <p class="features_card-description">
-                                    Purus in massa tempor nec feugiat. Euismod lacinia at quis risus sed vulputate odio
-                                </p>
+                                <h3 class="features_card-title">We Focus on Long-term Relationships, and highly experienced personnel</h3>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!--what the company stands for section-->
             <section class="team primary-bg section">
                 <div class="container">
                     <div class="wrapper d-flex flex-wrap align-items-end justify-content-center justify-content-sm-between">
                         <div class="team_header section_header">
-                            <span class="subtitle">Truth in engineering</span>
-                            <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                                <span class="highlight">Our Team</span>
-                                is Responsible for The Best Construction
-                            </h2>
+                            <span class="subtitle">What the company stands for:</span>
+                            <h4 class="title" data-aos="fade-right" data-aos-duration="500">
+                                <span class="highlight">Foremost and capable indigenous</span>
+                                Engineering construction company in Nigeria, committed to pushing limits and breaking records.
+                            </h4>
                         </div>
                         <a class="btn team_btn" href="team.html">Our team</a>
                     </div>
                     <div class="row g-0">
                         <div class="team_video col-12" data-aos="zoom-in" data-aos-duration="600" data-aos-once="true">
                             <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
+                                <source data-srcset="img/14.jpg" srcset="img/placeholder.jpg" />
                                 <img
                                     class="team_video-thumb lazy"
-                                    data-src="img/placeholder.jpg"
-                                    src="img/placeholder.jpg"
+                                    data-src="img/14.jpg"
+                                    src="img/14.jpg"
                                     alt="thumbnail"
                                 />
                             </picture>
-                            <a class="btn-play d-inline-flex align-items-center justify-content-center" href="#">
-                                <i class="icon-play"></i>
-                            </a>
+                            
                         </div>
                         <div class="team_main col-12 col-lg-6">
                             <p class="team_main-text" data-aos="fade-right" data-aos-duration="300">
-                                Leo in vitae turpis massa sed elementum tempus egestas sed. Sed sed risus pretium quam vulputate dignissim
-                                suspendisse in. Placerat orci nulla pellentesque dignissim enim. Tortor pretium viverra suspendisse potenti
-                                nullam augue. Vestibulum lorem sed risus ultricies tristique nulla. Erat velit scelerisque in dictum non
-                                consectetur
+                                We specifically handle Pipeline Construction (Land & Swamp, Offshore, Horizontal Directional Drilling-HDD, Horizontal Drilling – Thrust Boring), Steel and Metal Fabrication (Storage Tanks, Process works), Dredging Works, 
+                                Civil Construction (Piling, Jetty, Bridges), and project financing of Turnkey Projects.
                             </p>
-                            <ul class="team_main-list col-12">
-                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up">
-                                    <i class="icon-check icon"></i>
-                                    Ingenuity for life
-                                </li>
-                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="50">
-                                    <i class="icon-check icon"></i>
-                                    Lets you shine with skill
-                                </li>
-                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="100">
-                                    <i class="icon-check icon"></i>
-                                    Make science your obedient servant
-                                </li>
-                                <li class="team_main-list_item d-flex align-items-center" data-aos="fade-up" data-aos-delay="150">
-                                    <i class="icon-check icon"></i>
-                                    Development of Electrical Schematics
-                                </li>
-                            </ul>
+                            
                         </div>
                         <div class="team_quote col-12 col-lg-6" data-aos="fade-left" data-aos-duration="300">
                             <div class="team_quote-wrapper">
                                 <q class="team_quote-quote">
-                                    Senectus et netus et malesuada. Nunc proin pulvinar sapien et ligula ulamcorper malesuada proin
+                                    It is our prime objective to ensure economic success on a long-term basis.
                                 </q>
                                 <div
                                     class="team_quote-author d-flex flex-wrap flex-sm-nowrap align-items-center justify-content-end justify-content-sm-between"
@@ -734,19 +602,19 @@
                                     <div class="wrapper d-flex align-items-center">
                                         <picture>
                                             <source
-                                                data-srcset="img/placeholder.jpg"
-                                                srcset="img/placeholder.jpg"
+                                                data-srcset="img/15.jpg"
+                                                srcset="img/15.jpg"
                                                 type="image/webp"
                                             />
                                             <img
                                                 class="team_quote-author_avatar lazy"
-                                                data-src="img/placeholder.jpg"
-                                                src="img/placeholder.jpg"
+                                                data-src="img/15.jpg"
+                                                src="img/15.jpg"
                                                 alt="Daniel Strickland"
                                             />
                                         </picture>
                                         <div class="wrapper wrapper--info">
-                                            <span class="team_quote-author_name">Daniel Strickland</span>
+                                            <span class="team_quote-author_name">Engr E.I Amene</span>
                                             <span class="team_quote-author_profession">Founder of the company</span>
                                         </div>
                                     </div>
@@ -758,13 +626,11 @@
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            d="M47 0V36.5H70.9999C70.9999 49.9171 60.2333 60.8333 47 60.8333V73C66.8516 73 83 56.6273 83 36.5V0L47 0Z"
-                                            fill="#00aeef"
-                                        />
+                                    
                                         <path
                                             d="M0 36.5H23.9999C23.9999 49.9171 13.2333 60.8333 0 60.8333V73C19.8516 73 36 56.6273 36 36.5V0H0V36.5Z"
-                                            fill="#00aeef"
+                                            fill="#ed1d24"
+
                                         />
                                     </svg>
                                 </div>
@@ -773,6 +639,9 @@
                     </div>
                 </div>
             </section>
+
+            <!--Frequently asked questions section -->
+            
             <section class="faq section-nopb">
                 <div
                     class="container d-lg-flex flex-wrap flex-xl-nowrap justify-content-start align-items-start justify-content-xl-between"
@@ -875,257 +744,10 @@
                     </div>
                 </div>
             </section>
-            <section class="blog section">
-                <div class="container">
-                    <div class="wrapper d-flex flex-wrap align-items-end justify-content-sm-between">
-                        <div class="blog_header section_header">
-                            <span class="subtitle">Building The Future</span>
-                            <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                                Latest From the <span class="highlight">Blog</span>
-                            </h2>
-                        </div>
-                        <a class="btn blog_btn" href="blog.html">Our blog</a>
-                    </div>
-                    <ul class="blog_list row g-0">
-                        <li class="blog_list-item col-12 col-md-6 col-lg-4" data-aos="fade-up" data-order="1">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Impact of Technology on Construction Finance"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-between">
-                                    <div class="info d-flex align-items-center">
-                                        <a class="category" href="#">Materials</a>
-                                        <span class="divider"></span>
-                                        <span class="date">August 30, 2021</span>
-                                    </div>
-                                    <h4 class="title">Impact of Technology on Construction Finance</h4>
-                                    <p class="preview">
-                                        Porttitor rhoncus dolor purus non enim praesent elementum facilisis. A diam sollicitudin tempor id
-                                        eu nisl nunc fames
-                                    </p>
-                                    <div class="divider--link">
-                                        <a class="link link-arrow" href="#">
-                                            Read post
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="blog_list-item col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50" data-order="2">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Composite Materials – Applications for the Future"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-between">
-                                    <div class="info d-flex align-items-center">
-                                        <a class="category" href="#">Materials</a>
-                                        <span class="divider"></span>
-                                        <span class="date">August 30, 2021</span>
-                                    </div>
-                                    <h4 class="title">Composite Materials – Applications for the Future</h4>
-                                    <p class="preview">
-                                        Vel facilisis volutpat est velit egestas. Ut placerat orci nulla pellentesque dignissim enim sit
-                                        amet. Ornare lectus sit amet est placerat
-                                    </p>
-                                    <div class="divider--link">
-                                        <a class="link link-arrow" href="#">
-                                            Read post
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="blog_list-item col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-order="3">
-                            <div class="wrapper d-flex flex-column justify-content-between">
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Possibly Perfect Way to Build Bridges"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-between">
-                                    <div class="info d-flex align-items-center">
-                                        <a class="category" href="#">Materials</a>
-                                        <span class="divider"></span>
-                                        <span class="date">August 30, 2021</span>
-                                    </div>
-                                    <h4 class="title">Possibly Perfect Way to Build Bridges</h4>
-                                    <p class="preview">
-                                        Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Eu ultrices vitae auctor eu augue
-                                        ut lectus arcu bibendum
-                                    </p>
-                                    <div class="divider--link">
-                                        <a class="link link-arrow" href="#">
-                                            Read post
-                                            <i class="icon-arrow_right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="gallery">
-                <div class="container-fluid p-0">
-                    <ul class="gallery_list d-flex flex-wrap">
-                        <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
-                            <a
-                                class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
-                                data-role="gallery-link"
-                            >
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
-                            <a
-                                class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
-                                data-role="gallery-link"
-                            >
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
-                            <a
-                                class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
-                                data-role="gallery-link"
-                            >
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="gallery_list-item col-12 col-sm-6 col-xl-3">
-                            <a
-                                class="gallery_list-item_trigger"
-                                href="img/placeholder.jpg"
-                                data-caption="Fresh Concept Construction Renovation"
-                                data-role="gallery-link"
-                            >
-                                <div class="img-wrapper">
-                                    <picture>
-                                        <source
-                                            data-srcset="img/placeholder.jpg"
-                                            srcset="img/placeholder.jpg"
-                                            type="image/webp"
-                                        />
-                                        <img
-                                            class="lazy"
-                                            data-src="img/placeholder.jpg"
-                                            src="img/placeholder.jpg"
-                                            alt="Fresh Concept Construction Renovation"
-                                        />
-                                    </picture>
-                                </div>
-                                <div class="text-wrapper d-flex flex-column justify-content-end">
-                                    <span class="subtitle">Our gallery</span>
-                                    <h4 class="title">Fresh Concept Construction Renovation</h4>
-                                    <span class="label">Special Projects</span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+<br>
+<br>
+<!--Gallery section -->
+            
             <section class="contact section">
                 <div class="container d-flex flex-wrap align-items-end justify-content-lg-between justify-content-xl-start">
                     <div class="contact_form col-lg-6">
@@ -1250,8 +872,9 @@
                             <i class="icon-location icon"></i>
                             <div class="group d-flex flex-column">
                                 <span>House 11, 65 Road, </span>
-                                <span>Abuja Model City, Gwarimpa, </span>
-                                <span>Abuja, FCT, Nigeria</span>
+                                <span>Abuja Model City,</span> 
+                                <span>Gwarimpa, </span>
+                                <span>FCT-Abuja, Nigeria</span>
                                
                             </div>
                         </div>
@@ -1354,6 +977,8 @@
         <button id="scrollToTop" type="button">
             <i class="icon icon-arrow_right"></i>
         </button>
+   
+        <script src="js/index_alt.min.js"></script>
         <script src="js/common.min.js"></script>
         <script src="js/index.min.js"></script>
     </body>
