@@ -130,7 +130,7 @@ body.swal2-shown {
     transform: translateY(-50%);
     height: 2px;
     width: 40px;
-    background: #ffc631
+    background: #
 }
 
 .section_header .subtitle--extended {
@@ -197,7 +197,7 @@ h6 {
 }
 
 .link-arrow--alt {
-    color: #ffc631
+    color: #
 }
 
 .link-arrow i {
@@ -222,7 +222,7 @@ h6 {
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    background: #ffc631;
+    background: #;
     text-transform: uppercase;
     position: relative;
     bottom: 0;
@@ -259,11 +259,11 @@ h6 {
 }
 
 .btn-play:focus,.btn-play:hover {
-    border-color: #ffc631
+    border-color: #
 }
 
 .btn-play:focus i,.btn-play:hover i {
-    color: #ffc631
+    color: #
 }
 
 .socials_item {
@@ -300,12 +300,12 @@ h6 {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    background-color: #ffc631
+    background-color: #
 }
 
 .socials--alt .socials_item-link {
     color: #001f3f;
-    background: #ffc631
+    background: #
 }
 
 .hamburger {
@@ -407,7 +407,7 @@ input[type=checkbox]+label .icon {
     width: 40px;
     height: 40px;
     opacity: .5;
-    background: #ffc631;
+    background: #;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out
@@ -630,7 +630,7 @@ input[type=checkbox]+label .icon {
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    color: #ffc631;
+    color: #;
     margin: 0 10px
 }
 
@@ -690,7 +690,7 @@ input[type=checkbox]+label .icon {
 .header_extension .breadcrumbs_item:before {
     width: 0;
     height: 2px;
-    background-color: #ffc631;
+    background-color: #;
     bottom: -6px;
     -webkit-transition: width .3s ease-in-out;
     -o-transition: width .3s ease-in-out;
@@ -756,7 +756,7 @@ input[type=checkbox]+label .icon {
         position: absolute;
         width: 0;
         height: 2px;
-        background: #ffc631;
+        background: #;
         left: 0;
         bottom: -6px;
         -webkit-transition: width .3s ease-in-out;
@@ -853,7 +853,7 @@ input[type=checkbox]+label .icon {
         -webkit-transition: .3s ease-in-out;
         -o-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        color: #ffc631;
+        color: #;
         margin-left: 10px
     }
 
@@ -954,7 +954,7 @@ input[type=checkbox]+label .icon {
 
 .blog_feed-item_wrapper .text-wrapper .info .divider {
     border-radius: 50%;
-    background-color: #ffc631;
+    background-color: #;
     width: 5px;
     height: 5px;
     display: inline-block;
@@ -971,7 +971,7 @@ input[type=checkbox]+label .icon {
 }
 
 .blog_feed-item_wrapper .text-wrapper .info .category:hover {
-    color: #ffc631
+    color: #
 }
 
 .blog_feed-item_wrapper .text-wrapper .title {
@@ -1496,7 +1496,7 @@ input[type=checkbox]+label .icon {
 }
 
 .widgets_widget--newsletter .form .field:focus {
-    border-color: #ffc631
+    border-color: #
 }
 
 .widgets_widget--newsletter .form .field:focus::-webkit-input-placeholder {
@@ -1801,7 +1801,7 @@ input[type=checkbox]+label .icon {
 }
 
 .footer_main-block_form .field:focus {
-    border-color: #ffc631
+    border-color: #
 }
 
 .footer_main-block_form .field:focus::-webkit-input-placeholder {
@@ -1841,7 +1841,7 @@ input[type=checkbox]+label .icon {
 }
 
 .footer_main-block .group-wrapper .icon {
-    color: #ffc631;
+    color: #;
     font-size: 18px;
     margin-right: 10px;
     margin-top: 5px
@@ -1887,7 +1887,7 @@ input[type=checkbox]+label .icon {
 .footer_main-block_nav .list-item .link .icon {
     position: absolute;
     font-size: 14px;
-    color: #ffc631;
+    color: #;
     left: -15px;
     top: 50%;
     -webkit-transform: translateY(-50%);
