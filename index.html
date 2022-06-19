@@ -10,11 +10,13 @@
         <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
         <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
 
-        <link rel="stylesheet" href="css/index.min.css" />
-        <link rel="stylesheet" href="css/index2.min.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/index2.css" />
         <link rel="stylesheet" href="css/enikkom.css" />
     </head>
     <body>
+
+        <!-- menu bar -->
         <header class="header primary-bg" data-page="home">
             <div class="header_navbar">
                 <div class="container d-flex flex-wrap flex-lg-nowrap align-items-center justify-content-between">
@@ -64,142 +66,162 @@
                 </div>
             </div>
         </header>
+
+
         <!--  HOMEPAGE CONTENT START  -->
         <main>
-              <!--  Front page -->
-            <section class="hero primary-bg">
-                <picture>
-                    <source data-srcset="img/background.webp" srcset="img/background.webp" type="image/webp" data-role="deco" />
-                    <img class="plan lazy" data-src="img/background.webp" src="background.webp" alt="media" data-role="deco" />
-                </picture>
-                <div class="container hero_container d-md-flex flex-wrap justify-content-between">
-                    <picture>
-                        <source
-                            data-srcset="img/hero_building.webp"
-                            srcset="img/hero_building.webp"
-                            type="image/webp"
-                            data-role="deco"
-                        />
-                        <img
-                            class="hero_building lazy"
-                            data-src="img/hero_building.webp"
-                            src="img/hero_building.webp"
-                            alt="media"
-                            data-role="deco"
-                        />
-                    </picture>
-                    <div class="hero_header section_header col-md-7 col-xl-auto">
-                        <span class="subtitle subtitle--extended"> Professional. Innovative. Reliable. </span>
-                        <h1 class="title">Exceptional Service Exceeding Expectations</h1>
-                        <p class="text">
-                            Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions
-                            for our communities
-                        </p>
-                      
+              <!--  slide show -->
+              <section class="hero primary-bg">
+                <span class="hero_overlay"></span>
+                <div class="container container--slider d-flex flex-wrap justify-content-center">
+                    <div class="wrapper col-lg-11">
+                        <ul class="hero_slider d-flex">
+                            <li class="hero_slider-slide hero_slider-slide--01" data-bg="img/4.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Trenchless</h2>
+                                    <h2 class="title">Crossings</h2>
+                                    
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--02" data-bg="img/5.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Engineering </h2>
+                                    <h2 class="title">and Maintenance</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--03" data-bg="img/8.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Project </h2>
+                                    <h2 class="title"> Management / Consultancy</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--04" data-bg="img/9.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">	Civil </h2>
+                                    <h2 class="title">	Construction</h2>
+                                    <br>
+                                    <a class="btn" href="services">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--05" data-bg="img/10.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Dredging</h2>
+                                    <h2 class="title"> and Piling</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--01" data-bg="img/11.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Production</h2>
+                                    <h2 class="title">Operations</h2>
+                                    <br>
+                                    
+                                    <a class="btn" href="services">Service details</a>
+                                </div>
+                            </li>
+                            <li class="hero_slider-slide hero_slider-slide--02" data-bg="img/12.jpg">
+                                <div class="hero_slider-slide_content section_header">
+                                    <span class="subtitle subtitle--extended">Our services</span>
+                                    <h2 class="title">Logistics </h2>
+                                    <h2 class="title"> Support</h2>
+                                    <br>
+                                    <a class="btn" href="services.html">Service details</a>
+                                </div>
+                            </li>
+
+                        </ul>
                     </div>
-                    <div class="hero_info d-flex flex-column col-md-5 col-xl-auto align-items-md-end">
-                       
-                        <div class="hero_info-card" data-wow-delay="100" data-wow-duration="600">
-                            <span class="hero_info-card_underlay"></span>
-                            <div class="wrapper">
-                                <h3 class="title">Delivering HDD services since</h3>
-                                <span class="square highlight d-flex align-items-center">1995</span>
-                                
-                                
-                            </div>
-                            <picture>
-                                <source
-                                    data-srcset="img/hero_building.webp"
-                                    srcset="img/hero_building.webp"
-                                    type="image/webp"
-                                    data-role="deco"
-                                />
-                                <img
-                                    class="hero_building--mini lazy"
-                                    data-src="img/hero_building.webp"
-                                    src="img/hero_building.webp"
-                                    alt="media"
-                                    data-role="deco"
-                                />
-                            </picture>
-                        </div>
+                    <div
+                        class="hero_slider-nav hero_slider-nav--alt col-lg-1 d-flex align-items-center justify-content-center flex-lg-column align-items-md-end"
+                    >
+                        <button class="hero_slider-nav_dot tns-nav-active"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        <button class="hero_slider-nav_dot"></button>
+                        
                     </div>
                 </div>
-            </section>
-
-
-
-              <!--  SERVICES CONTENT START  -->
-            <section class="services section">
-                <div class="container">
-                    <div class="services_header section_header">
-                        <span class="subtitle"> What we do </span>
-                        <h2 class="title" data-aos="fade-right" data-aos-duration="500">
-                            Multi-Disciplined Engineering <span class="highlight">Solutions</span>
-                        </h2>
-                    </div>
-                    <ul class="services_list row g-0">
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="1">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">01</span>
-                                <h4 class="title">	Project Management/ Consultancy  </h4>
+                <div class="container-fluid container--thumbs">
+                    <ul class="hero_thumbs">
+                        <li class="hero_thumbs-thumb is-current" data-bg="img/4.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Trenchless
+                                    Crossings</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="2">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">02</span>
-                                <h4 class="title">	Engineering & Maintenance </h4>
-                                
-                               
+                        <li class="hero_thumbs-thumb" data-bg="img/5.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Engineering
+                                    and Maintenance</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="4">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">03</span>
-                                <h4 class="title">	Trenchless Crossings</h4>
-                                
-                               
+                        <li class="hero_thumbs-thumb" data-bg="img/8.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Project
+                                    Management / Consultancy</h4>
                             </div>
                         </li>
-
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="4">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">04</span>
-                                <h4 class="title">Civil Construction</h4>
-                                
-                               
+                        <li class="hero_thumbs-thumb" data-bg="img/9.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Civil
+                                    Construction</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="5">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">05</span>
-                                <h4 class="title">Dredging & Piling</h4>
-                                
+                        <li class="hero_thumbs-thumb" data-bg="img/10.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Dredging
+                                    and Piling</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="6">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">06</span>
-                                <h4 class="title">Production Operations</h4>
-                                
+                        <li class="hero_thumbs-thumb" data-bg="img/11.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Production
+                                    Operations</h4>
                             </div>
                         </li>
-                        <li class="services_list-item col-12 col-md-6 col-xxl-4" data-aos="fade-up" data-order="6">
-                            <div class="wrapper d-flex flex-column align-items-start justify-content-between">
-                                <span class="number">07</span>
-                                <h4 class="title">	Logistics Support Services</h4>
-                                
+                        <li class="hero_thumbs-thumb" data-bg="img/12.jpg">
+                            <div class="hero_thumbs-thumb_inner d-flex flex-column justify-content-end">
+                                <span class="overlay"></span>
+                                <h4 class="title">Logistics
+                                    Support</h4>
                             </div>
                         </li>
+                        
                         
                     </ul>
                 </div>
             </section>
 
+
+              <!--  SERVICES CONTENT START  -->
+           
+
             
 
               <!--  PROJECT CONTENT START  -->
-              <section class="about primary-bg section">
+              <section class="about secondarywork-bg section">
                 <div class="container d-flex flex-wrap justify-content-between align-items-end">
                     <div class="about_header section_header col-lg-5">
                         <span class="subtitle" data-aos="fade-down">Just feel the future</span>
@@ -291,56 +313,6 @@
                 </div>
             </section>
 
-
-              <!--  HOMEPAGE CONTENT START  -->
-            <section class="spots section">
-                <div class="container d-flex flex-wrap flex-lg-nowrap">
-                    <div class="wrapper">
-                        <div class="spots_header section_header">
-                            <span class="subtitle">Where we work</span>
-                            <h2 class="title">
-                                <span class="highlight">Our Project </span>
-                                in the World
-                            </h2>
-                        </div>
-                        <div class="spots_map">
-                            <picture>
-                                <source
-                                    data-srcset="img/placeholder.jpg"
-                                    srcset="img/placeholder.jpg"
-                                    type="image/webp"
-                                    data-role="deco"
-                                />
-                                <img
-                                    class="spots_map-map lazy"
-                                    data-src="img/placeholder.jpg"
-                                    src="img/placeholder.jpg"
-                                    alt="map"
-                                    data-role="deco"
-                                />
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="spots_info col-lg-6 col-xl-auto">
-                        <p class="spots_info-text">
-                            Molestie nunc non blandit massa. Lacus sed viverra tellus in hac habitasse platea. Velit egestas dui id ornare
-                            arcu. Sapien pellentesque habitant morbi tristique senectus et netus. Ut consequat semper viverra nam libero.
-                            Convallis aenean et tortor at
-                        </p>
-                        <div class="wrapper d-flex flex-column align-items-start justify-content-center justify-content-sm-start">
-                            <div class="spots_info-number">
-                                <h2 class="countNum number" data-suffix="+" data-value="200">0</h2>
-                                <span class="label"> Active Projects in Civil Engineering </span>
-                            </div>
-                            <div class="spots_info-number">
-                                <h2 class="countNum number" data-suffix="%" data-value="99">0</h2>
-                                <span class="label"> Building Control Approval Rate </span>
-                            </div>
-                        </div>
-                        <a class="spots_info-btn btn" href="about.html">About company</a>
-                    </div>
-                </div>
-            </section>
             <section class="features primary-bg section-nopb">
                 <div class="container p-md-0">
                     <div class="row g-0">
@@ -1290,6 +1262,8 @@
         <button id="scrollToTop" type="button">
             <i class="icon icon-arrow_right"></i>
         </button>
+   
+        <script src="js/index_alt.min.js"></script>
         <script src="js/common.min.js"></script>
         <script src="js/index.min.js"></script>
     </body>

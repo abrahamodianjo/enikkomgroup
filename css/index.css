@@ -166,6 +166,10 @@ body.swal2-shown {
     background: #001f3f;
     color: #fff
 }
+.secondarywork-bg {
+    background: #fff;
+    color: #001f3f
+}
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Archivo,sans-serif;
