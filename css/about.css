@@ -943,7 +943,7 @@ input[type=checkbox]+label .icon {
 .hero_header-list_item {
     font-weight: 500;
     color: #202c38;
-    margin-bottom: 15px
+    margin-bottom: 35px
 }
 
 .hero_header-list_item:last-of-type {
@@ -958,7 +958,8 @@ input[type=checkbox]+label .icon {
 
 .hero_header .btn {
     width: 100%;
-    margin-top: 40px
+    margin-top: 40px;
+    border-radius: 18px;
 }
 
 @media screen and (min-width:767.98px) {
@@ -1152,7 +1153,9 @@ input[type=checkbox]+label .icon {
 }
 
 .services_slider-slide .text-wrapper .btn {
-    width: 100%
+    width: 100%;
+    border-radius: 18px;
+
 }
 
 @media screen and (min-width:767.98px) {
