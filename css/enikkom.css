@@ -1,3 +1,13 @@
-color {
+.blue-color {
     color: #00aeef;
+}
+.black-color{
+    color: #000;
+}
+.white-color{
+    color: #fff;
+}
+
+.red-color{
+    color: #ed1d24;
 }

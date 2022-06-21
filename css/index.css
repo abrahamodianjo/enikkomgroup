@@ -159,12 +159,16 @@ body.swal2-shown {
 }
 
 .highlight {
-    color: #0da574
+    color: #ed1d24
 }
 
 .primary-bg {
     background: #001f3f;
     color: #fff
+}
+.secondarywork-bg {
+    background: #fff;
+    color: #001f3f
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -201,7 +205,7 @@ h6 {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 23px;
-    color: #0da574;
+    color: #ed1d24;
     letter-spacing: 1px;
     font-family: Archivo,sans-serif;
     font-weight: 600
@@ -361,7 +365,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked+label .icon {
-    color: #0da574
+    color: #ed1d24
 }
 
 input[type=checkbox]+label {
@@ -1296,7 +1300,7 @@ input[type=checkbox]+label .icon {
 }
 
 .services_list-item .wrapper:hover {
-    border-color: #0da574
+    border-color: #ed1d24
 }
 
 .services_list-item .wrapper .number {
@@ -1592,7 +1596,7 @@ input[type=checkbox]+label .icon {
 }
 
 .features_header-list_item .icon {
-    color: #0da574;
+    color: #ed1d24;
     margin-right: 10px
 }
 
@@ -1688,7 +1692,7 @@ input[type=checkbox]+label .icon {
 }
 
 .spots_info-number .number {
-    color: #0da574;
+    color: #ed1d24;
     font-family: Archivo,sans-serif;
     font-weight: 800;
     margin-bottom: 6px;
@@ -1750,7 +1754,7 @@ input[type=checkbox]+label .icon {
 }
 
 .speech-bubble {
-    background: #0da574;
+    background: #ed1d24;
     color: #fff;
     display: block;
     padding: 15px;
@@ -2044,16 +2048,16 @@ input[type=checkbox]+label .icon {
 }
 
 .accordion-wrapper.expanded {
-    border-color: #0da574;
+    border-color: #ed1d24;
     padding: 15px
 }
 
 .accordion-wrapper.expanded .accordion-trigger {
-    color: #0da574
+    color: #ed1d24
 }
 
 .accordion-wrapper.expanded .accordion-trigger_icon .line {
-    background: #0da574
+    background: #ed1d24
 }
 
 .accordion-wrapper.expanded .accordion-trigger_icon .line--y {
@@ -2506,7 +2510,7 @@ input[type=checkbox]+label .icon {
 }
 
 .contact-info_group .content .link:focus,.contact-info_group .content .link:hover {
-    color: #0da574
+    color: #ed1d24
 }
 
 @media screen and (min-width:575.98px) {

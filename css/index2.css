@@ -629,7 +629,7 @@ body.swal2-shown {
 }
 
 .highlight {
-    color: #0da574
+    color: #ed1d24
 }
 
 .primary-bg {
@@ -671,7 +671,7 @@ h6 {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 23px;
-    color: #0da574;
+    color: #ed1d24;
     letter-spacing: 1px;
     font-family: Archivo,sans-serif;
     font-weight: 600
@@ -831,7 +831,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked+label .icon {
-    color: #0da574
+    color: #ed1d24
 }
 
 input[type=checkbox]+label {
@@ -1477,7 +1477,7 @@ input[type=checkbox]+label .icon {
     font-family: Archivo,sans-serif;
     font-weight: 800;
     margin-bottom: 5px;
-    color: #0da574
+    color: #ed1d24
 }
 
 .about_numbers-group_group .label {
@@ -1561,7 +1561,7 @@ input[type=checkbox]+label .icon {
 }
 
 .advantages_header-list_item .number {
-    color: #0da574;
+    color: #ed1d24;
     margin-bottom: 5px;
     font-family: Archivo,sans-serif;
     font-weight: 700
@@ -2173,7 +2173,7 @@ input[type=checkbox]+label .icon {
 }
 
 .contact-info_group .content .link:focus,.contact-info_group .content .link:hover {
-    color: #0da574
+    color: #ed1d24
 }
 
 @media screen and (min-width:575.98px) {
