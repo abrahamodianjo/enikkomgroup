@@ -72,7 +72,8 @@
 }
 
 .icon-star:before {
-    content: "\e90e"
+    content: "\e90e";
+    color: #ffc631;
 }
 
 .icon-bookmark:before {
